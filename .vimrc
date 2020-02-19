@@ -1,3 +1,27 @@
+" Plugin configs
+	
+	filetype off
+
+	call pathogen#infect()
+	call pathogen#helptags()
+
+	filetype plugin indent on
+	syntax on
+" Python plugin
+	let g:pymode = 1
+	let g:pymode_options = 1
+	let g:pymode_indent = 1
+	let g:pymode_motion = 1
+	let g:pymode_rope = 1
+	let g:pymode_run = 1
+	let g:pymode_run_bind = '<leader>r'
+	let g:pymode_rope_completion = 1
+	let g:pymode_rope_complete_on_dot = 1
+	let g:pymode_rope_completion_bind = '<C-Space>'
+	let g:pymode_syntax = 1
+
+" Latex plugin
+	let g:livepreview_previewer = 'zathura'
 
 " An example for a vimrc file.
 "
@@ -70,3 +94,5 @@ endif
 
 " Splits open at the bottom and right, which is non-retarded, unlike vim defaults.
 	set splitbelow splitright
+
+
