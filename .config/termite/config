@@ -6,7 +6,7 @@
 #cell_width_scale = 1.0
 #clickable_url = true
 #dynamic_title = true
-font = Monospace 10
+font = Monospace 11
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -57,23 +57,23 @@ background = rgba(51, 51, 51, 0.8)
 #highlight = #839496
 
 # colors from color0 to color254 can be set
-color0 = #073642
-color1 = #dc322f
-color2 = #859900
-color3 = #b58900
-color4 = #268bd2
-color5 = #d33682
-color6 = #2aa198
-color7 = #eee8d5
-color8 = #002b36
-color9 = #cb4b16
-color10 = #586e75
-color11 = #657b83
-color12 = #839496
-color13 = #6c71c4
-color14 = #93a1a1
-color15 = #fdf6e3
-
+color0 = #000000
+color1 = #ff5555
+color2 = #50fa7b
+color3 = #f1fa8c
+color4 = #bd93f9
+color5 = #ff79c6
+color6 = #8be9fd
+color7 = #bbbbbb
+color8 = #555555
+color9 = #ff5555
+color10 = #50fa7b
+color11 = #f1fa8c
+color12 = #bd93f9
+color13 = #ff79c6
+color14 = #8be9fd
+color15 = #ffffff
+colorBD = #ffffff
 [hints]
 #font = Monospace 12
 #foreground = #dcdccc
